@@ -1,0 +1,13 @@
+{
+  "model": "google/flan-t5-base (fine-tuned)",
+  "auc_roc": 0.5,
+  "f1": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "train_time_s": 1043.76,
+  "train_samples": 600,
+  "co2_train_kg": 0.00439102,
+  "co2_infer_per_1k_kg": 8.376e-05,
+  "model_parameters": 247577856,
+  "notes": "Trained on 600 samples (300 fraud + 300 legit) due to time constraints. Inference evaluated on stratified subsample of 1,000 test rows. Validation loss was nan during training indicating undertrained model. Carbon estimated using TDP-based formula: kWh = runtime(h) x 0.065kW, CO2e = kWh x 0.233 kgCO2e/kWh (UK grid 2024)."
+}
