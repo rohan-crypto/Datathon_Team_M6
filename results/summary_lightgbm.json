@@ -1,0 +1,15 @@
+{
+    "model": "LightGBM",
+    "auprc": 0.4006,
+    "auc_roc": 0.9415,
+    "f1": 0.0666,
+    "precision": 0.0346,
+    "recall": 0.9082,
+    "threshold": 0.95,
+    "train_time_s": 1.56,
+    "train_samples": 227845,
+    "co2_train_kg": 4.5296e-06,
+    "co2_infer_per_1k_kg": 6e-10,
+    "model_parameters": 31,
+    "notes": "Tuned threshold=0.95 for improved precision. Trained on full 80/20 stratified split."
+}
