@@ -1,0 +1,11 @@
+{
+  "model": "Logistic Regression (Baseline)",
+  "auprc": 0.672,
+  "auc_roc": 0.9658,
+  "f1": 0.1055,
+  "precision": 0.0561,
+  "recall": 0.8737,
+  "train_time_s": 0.677,
+  "co2_train_kg": 1.9717e-06,
+  "co2_infer_per_1k_kg": 1.49e-08
+}
