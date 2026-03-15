@@ -2,7 +2,7 @@
 data/creditcard.csv
 
 # Splits — commit this AFTER shared_baseline.ipynb is run
-splits/data_splits.pkl
+# splits/data_splits.pkl
 
 # Model files — large, don't commit
 models/
